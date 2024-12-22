@@ -1,0 +1,116 @@
+/* Ensure full-page container styling */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.center-formSignin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.center-formSignin Form {
+  max-width: 390px;
+  max-height: 600px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  background-color: #d8f793;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.signin-header {
+  font-size: 30px;
+  font-family: "Laila", sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  color: black;
+}
+
+.signin-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 13px;
+  margin-bottom: 20px;
+}
+
+.signin-title {
+  margin-top: 0px;
+  font-family: "Laila", sans-serif;
+}
+
+.center-formSignin Form .form-control {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 15px;
+  width: 50%;
+}
+
+.signin-error {
+  color: darkred;
+  margin-bottom: 10px;
+}
+
+.w-100a {
+  background-color: #998650;
+  font-size: 20px;
+  font-family: "Laila", sans-serif;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 55%;
+  margin: 5%;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.w-100a:hover {
+  background-color: #83610a;
+  color: white;
+  box-shadow: 0 1px 2px rgba(45, 39, 44, 0.24);
+}
+
+.signin-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.signin-link {
+  margin: 0 3px;
+  font-weight: bold;
+  color: #b8731a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.signin-link:hover {
+  color: #85410a;
+}
